@@ -1,10 +1,10 @@
-using TreeSyncer.Interfaces;
+using TreeSyncer.Models;
 
-namespace TreeSyncer;
+namespace TreeSyncer.TocLoaders;
 
 public class DbCoreTocLoader : ICoreTocLoader<MmsTopicNode>
 {
-    public MmsTopicNode[] Load()
+    public MmsTopicNode Load()
     {
         throw new NotImplementedException();
     }

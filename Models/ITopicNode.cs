@@ -1,3 +1,5 @@
+using TreeSyncer.Entities;
+
 namespace TreeSyncer.Models;
 
 public interface ITopicNode

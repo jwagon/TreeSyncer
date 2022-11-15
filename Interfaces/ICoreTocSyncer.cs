@@ -1,4 +1,4 @@
-namespace TreeSyncer;
+namespace TreeSyncer.Interfaces;
 
 public interface ICoreTocSyncer
 {

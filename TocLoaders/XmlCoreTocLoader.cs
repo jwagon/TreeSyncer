@@ -1,10 +1,10 @@
-using TreeSyncer.Interfaces;
+using TreeSyncer.Models;
 
-namespace TreeSyncer;
+namespace TreeSyncer.TocLoaders;
 
 public class XmlCoreTocLoader : ICoreTocLoader<DitaTopicNode>
 {
-    public DitaTopicNode[] Load()
+    public DitaTopicNode Load()
     {
         throw new NotImplementedException();
     }
